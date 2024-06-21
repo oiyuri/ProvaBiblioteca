@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <script src="./js/verificacao.js"></script>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Livros</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Lista de Livros</h2>
+      <input
+        class="form-control"
+        id="buscaLivro"
+        type="text"
+        placeholder="Buscar"
+      />
+      <br />
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Título</th>
+            <th>Autor</th>
+            <th>Valor do Aluguel</th>
+            <th>Ação</th>
+          </tr>
+          <tr>
+            <th>
+              <h5>O rei dos dividendos</h3>
+            </th>
+            <th>
+                <h5>Luiz Barsi Filho</h5>
+            </th>
+            <th>
+                <h5>R$46,62</h5>
+            </th>
+            <th>
+              <button id="livro1" class="btn btn-primary"><a href="./aluno.html">Alugar</a></button>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <h5>O Jeito de Warren Buffett de Investir</h5>
+            </th>
+            <th>
+                <h5>Robert G. Hagstrom</h5>
+            </th>
+            <th>
+                <h5>R$36,42</h5>
+            </th>
+            <th>
+              <button id="livro2" class="btn btn-primary"><a href="./aluno.html">Alugar</a></button>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <h5>Auto da Barca do Inferno</h5>
+            </th>
+            <th>
+                <h5>Gil Vicente</h5>
+            </th>
+            <th>
+                <h5>R$34,40</h5>
+            </th>
+            <th>
+              <button id="livro3" class="btn btn-primary"><a href="./aluno.html">Alugar</a></button>
+            </th>
+          </tr>
+          <tr>
+            <th>
+              <h5>O Homem Mais Rico da Babilônia</h5>
+            </th>
+            <th>
+                <h5>George Samuel Clason</h5>
+            </th>
+            <th>
+                <h5>R$21,90</h5>
+            </th>
+            <th>
+              <button id="livro4" class="btn btn-primary"><a href="./aluno.html">Alugar</a></button>
+            </th>
+          </tr>
+        </thead>
+        <tbody id="tabelaLivros"></tbody>
+      </table>
+    </div>
+  </body>
+</html>
